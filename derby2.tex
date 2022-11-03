@@ -81,8 +81,6 @@
 % Use adjustwidth environment to exceed column width (see example table in text)
 \usepackage{changepage}
 
-% Use Unicode characters when possible
-\usepackage[utf8x]{inputenc}
 
 % textcomp package and marvosym package for additional characters
 \usepackage{textcomp,marvosym}
@@ -287,8 +285,8 @@ Management} % Please use "sentence case" for title and headings (capitalize only
 \\
 Trevor Davies\textsuperscript{\getAff{BC
 Government}}\textsuperscript{*},
-Brett Van Poorten\textsuperscript{\getAff{MoF}, \getAff{Simon Fraser
-University}}\\
+Brett Van Poorten\textsuperscript{\getAff{Ministry of
+Forests}, \getAff{Simon Fraser University}}\\
 \bigskip
 \textbf{\getAff{FLNRORD}}B.C. Ministry of Forests, Fish and Wildlife
 Branch, Victoria, British Columbia, Canada\\
@@ -318,26 +316,29 @@ I don't publish in plos One so I'm not sure why this is here.
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
 
-Collecting and synthesizing data that is aligned with fishery management
-goals is essential for the long term sustainability of fishery
-resources. Data used to manage fisheries are derived from two principle
-sources: fishery-dependent data (scientific surveys) and
-fishery-independent data (collected from active participants in the
-fishery). The collection of fishery-independent data is preferred as it
-is less prone to bias and confounding effects that can arise from
-individual fisher behavior including skill and gear selection. Although
-preferred, fishery-independent data are expensive to collect leaving
-fishery-dependent data as an attractive alternative. Depending on the
-value of the fishery, the use of fishery-dependent data can have dire
-consequences. Indeed, one of the causes of the worlds greatest fishery
-collapse (Atlantic cod) was a result of weighing commercial fishery
-catch-and-effort data in the analyses of population trends (see my
-thesis for reference for this). There are however, ways to include
-fishery independent data and it plays a large role in the management of
-commercial fisheries (Tuna - see Maunder GLM paper). This is possible
-for large scale fisheries where catches of individual vessels can be
-accounted for in the analysis but this is less practical for relatively
-small scale recreational fisheries.
+Collecting and synthesizing data that are aligned with fishery
+management goals is essential for the long term sustainability of
+fishery resources. Data used to manage fisheries are derived from two
+principle sources: fishery-independent data (scientific surveys) and
+fishery-dependent data (collected from active participants in the
+fishery). The collection of fishery-independent data for the purpose of
+stock assessment and management is generally preferred as it is less
+prone to bias and confounding effects that can arise from individual
+fisher behavior including skill and gear selection that can be difficult
+to correct for. Although preferred, fishery-independent data can be
+expensive to collect thus fishery-dependent data as an attractive
+alternative despite its shortcomings.
+
+Depending on the value of the fishery, the use of fishery-dependent data
+can have dire consequences. Indeed, one of the causes of the worlds
+greatest fishery collapse (Atlantic cod) was a result of weighing
+commercial fishery catch-and-effort data in the analyses of population
+trends (see my thesis for reference for this). There are however, ways
+to include fishery independent data and it plays a large role in the
+management of large commercial fisheries (Tuna - see Maunder GLM paper).
+This is possible for large scale fisheries where catches of individual
+vessels can be accounted for in the analysis but this is less practical
+for relatively small scale recreational fisheries.
 
 New technologies are allowing for the easy and remote collection of
 recreational fishing data. These data are collected by mobile apps where
@@ -345,6 +346,8 @@ fishers opportunistically enter their catches and include other
 informataion such as size, species and even location. These apps collect
 individual fishing behaviour so that can be controlled in the analysis
 but still suffer from gear and effort issues.
+
+See outline - this is a test
 
 Ways to control for this
 
@@ -452,13 +455,13 @@ Tables can also be generated using R chunks, as shown in Table
 
 \begin{longtable}[]{@{}lrrrr@{}}
 \caption{\label{tab1}Caption centered above table}\tabularnewline
-\toprule
+\toprule()
 & mpg & cyl & disp & hp \\
-\midrule
+\midrule()
 \endfirsthead
-\toprule
+\toprule()
 & mpg & cyl & disp & hp \\
-\midrule
+\midrule()
 \endhead
 Mazda RX4 & 21.0 & 6 & 160 & 110 \\
 Mazda RX4 Wag & 21.0 & 6 & 160 & 110 \\
@@ -466,7 +469,7 @@ Datsun 710 & 22.8 & 4 & 108 & 93 \\
 Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
 Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
 Valiant & 18.1 & 6 & 225 & 105 \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{references}{%
@@ -476,14 +479,14 @@ Valiant & 18.1 & 6 & 225 & 105 \\
 \hypertarget{refs}{}
 \begin{CSLReferences}{0}{0}
 \leavevmode\vadjust pre{\hypertarget{ref-Feynman1963118}{}}%
-\CSLLeftMargin{1. }
+\CSLLeftMargin{1. }%
 \CSLRightInline{Feynman RP, Vernon Jr. FL. The theory of a general
 quantum system interacting with a linear dissipative system. Annals of
 Physics. 1963;24: 118--173.
 doi:\href{https://doi.org/10.1016/0003-4916(63)90068-X}{10.1016/0003-4916(63)90068-X}}
 
 \leavevmode\vadjust pre{\hypertarget{ref-Dirac1953888}{}}%
-\CSLLeftMargin{2. }
+\CSLLeftMargin{2. }%
 \CSLRightInline{Dirac PAM. The lorentz transformation and absolute time.
 Physica. 1953;19: 888--896.
 doi:\href{https://doi.org/10.1016/S0031-8914(53)80099-6}{10.1016/S0031-8914(53)80099-6}}

@@ -37,7 +37,7 @@ Depending on the value of the fishery, the use of fishery-dependent data can hav
 
 New technologies are allowing for the easy and remote collection of recreational fishing data.  These data are collected by mobile apps where fishers opportunistically enter their catches and include other informataion such as size, species and even location.  These apps collect individual fishing behaviour so that can be controlled in the analysis but still suffer from gear and effort issues.
 
-See outline
+See outline - this is a test
 
 Ways to control for this
 
