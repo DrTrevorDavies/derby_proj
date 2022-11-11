@@ -35,7 +35,7 @@ Collecting and synthesizing data that are aligned with fishery management goals 
 
 Depending on the value of the fishery, the use of fishery-dependent data can have dire consequences.  Indeed, one of the causes of the worlds greatest fishery collapse (Atlantic cod) was a result of weighing commercial fishery catch-and-effort data in the analyses of population trends (see my thesis for reference for this).  There are however, ways to include fishery independent data and it plays a large role in the management of large commercial fisheries (Tuna - see Maunder GLM paper).  This is possible for large scale fisheries where catches of individual vessels can be accounted for in the analysis but this is less practical for relatively small scale recreational fisheries.
 
-New technologies are allowing for the easy and remote collection of recreational fishing data.  These data are collected by mobile apps where fishers opportunistically enter their catches and include other informataion such as size, species and even location.  These apps collect individual fishing behaviour so that can be controlled in the analysis but still suffer from gear and effort issues.
+New technologies are allowing for the easy and remote collection of recreational fishing data.  These data are collected by mobile apps where fishers opportunistically enter their catches and include other information such as size, species and even location.  These apps collect individual fishing behaviour so that can be controlled in the analysis but still suffer from gear and effort issues.
 
 See outline - this is a test
 
@@ -83,11 +83,6 @@ increased power using both methods
 -
 
 ## Mark recapture monitoring
-
-
-
-
-
 
 
 
