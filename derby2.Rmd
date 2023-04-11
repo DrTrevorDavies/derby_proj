@@ -44,6 +44,9 @@ Ways to control for this
 - Structure surveys via derbies
 - Model individual fisher behaviour (maybe we could use age for experience?)
 - Use derbies as a way to build catchability effectiveness of gear types?
+- Data imputation to other fisheries? 
+- Integrate into stock assessment - combine with fishing effort estimates
+- 
 
 How this paper should proceed
 
